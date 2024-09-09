@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CML Example</title>
+  <script src="path-to-jsmol-library.js"></script> <!-- Example for rendering CML -->
+</head>
+<body>
+  <cml xmlns="http://www.xml-cml.org/schema">
+    <molecule id="m1">
+      <atomArray>
+        <atom id="a1" elementType="O" />
+        <atom id="a2" elementType="H" />
+        <atom id="a3" elementType="H" />
+      </atomArray>
+      <bondArray>
+        <bond atomRefs2="a1 a2" />
+        <bond atomRefs2="a1 a3" />
+      </bondArray>
+    </molecule>
+  </cml>
+    
+   <script src="https://chemapps.stolaf.edu/jmol/jsmol/JSmol.min.js"></script>
+</body>
+</html>
